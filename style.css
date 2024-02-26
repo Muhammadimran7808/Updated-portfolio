@@ -618,27 +618,6 @@ button.contact-btn {
 /*   *** Resume Section Styling Ends ***  */
 
 /*   *** Portfolio Section Styling Starts ***   */
-.portfolio .button-group {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.portfolio .button-group .button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: var(--primary-light-clr);
-    color: var(--primary-clr);
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.4s;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-    font-size: 12px;
-}
 
 .portfolio .button-group .button.active {
     background-color: var(--primary-clr);
@@ -659,6 +638,7 @@ button.contact-btn {
 .portfolio .gallery .item {
     position: relative;
     width: calc(100% / 3);
+    height: 250px;
     border: 4px solid transparent;
     overflow: hidden;
     cursor: pointer;
