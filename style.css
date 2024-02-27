@@ -19,6 +19,10 @@ html {
     --secondary-heading: #277b6d;
 }
 
+img{
+    user-select: none;
+}
+
 /*   *** Reusable Code Starts ***   */
 button.btn {
     background-color: var(--primary-clr);
